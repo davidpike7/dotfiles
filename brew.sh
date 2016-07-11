@@ -20,11 +20,11 @@ brew install gnu-sed --with-default-names
 
 # Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-brew install bash
-brew tap homebrew/versions
-brew install bash-completion2
+#brew install bash
+#brew tap homebrew/versions
+#brew install bash-completion2
 
-brew install homebrew/completions/brew-cask-completion
+#brew install homebrew/completions/brew-cask-completion
 
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
 brew install grc
@@ -74,6 +74,10 @@ brew install android-platform-tools
 brew install pidcat   # colored logcat guy
 
 brew install zsh
+
+# Fonts
+brew tap caskroom/fonts
+brew cask install font-source-code-pro
 
 # Remove outdated versions from the cellar
 brew cleanup

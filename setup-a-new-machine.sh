@@ -42,9 +42,6 @@ cp ~/.gitconfig.local ~/migration
 
 cp ~/.z ~/migration # z history file.
 
-# sublime text settings
-cp "~/Library/Application Support/Sublime Text 3/Packages" ~/migration
-
 
 # iTerm settings.
   # Prefs, General, Use settings from Folder
@@ -149,7 +146,7 @@ git clone https://github.com/rupa/z.git ~/code/z
 
 # github.com/thebitguru/play-button-itunes-patch
 # disable itunes opening on media keys
-git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-button-itunes-patch
+#git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-button-itunes-patch
 
 
 # my magic photobooth symlink -> dropbox. I love it.
@@ -161,15 +158,15 @@ git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-but
 
 
 # for the c alias (syntax highlighted cat)
-sudo easy_install Pygments
+#sudo easy_install Pygments
 
 
 # change to bash 4 (installed by homebrew)
-BASHPATH=$(brew --prefix)/bin/bash
+#BASHPATH=$(brew --prefix)/bin/bash
 #sudo echo $BASHPATH >> /etc/shells
-sudo bash -c 'echo $(brew --prefix)/bin/bash >> /etc/shells'
-chsh -s $BASHPATH # will set for current user only.
-echo $BASH_VERSION # should be 4.x not the old 3.2.X
+#sudo bash -c 'echo $(brew --prefix)/bin/bash >> /etc/shells'
+#chsh -s $BASHPATH # will set for current user only.
+#echo $BASH_VERSION # should be 4.x not the old 3.2.X
 # Later, confirm iterm settings aren't conflicting.
 
 
@@ -178,7 +175,7 @@ echo $BASH_VERSION # should be 4.x not the old 3.2.X
 
 
 # setting up the sublime symlink
-ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+#ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 
 ###
