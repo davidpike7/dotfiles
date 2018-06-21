@@ -20,6 +20,7 @@ brew cask install sequel-pro
 brew cask install alfred
 brew cask install spotify
 brew cask install evernote
+brew cask install slack
 
 # dev
 brew cask install iterm2
