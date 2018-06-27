@@ -25,7 +25,6 @@ brew cask install slack
 brew cask install iterm2
 brew cask install visual-studio-code
 brew cask install sketch
-brew cask install yarn
 
 # browsers
 brew cask install google-chrome
