@@ -8,7 +8,6 @@
 # Install native apps
 
 brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
 
 # daily
 brew cask install spectacle
@@ -24,7 +23,9 @@ brew cask install slack
 
 # dev
 brew cask install iterm2
-brew cask install sublime-text
+brew cask install visual-studio-code
+brew cask install sketch
+brew cask install yarn
 
 # browsers
 brew cask install google-chrome
