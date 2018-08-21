@@ -15,7 +15,6 @@ brew cask install dropbox
 brew cask install 1password
 brew cask install flux
 brew cask install spectacle
-brew cask install sequel-pro
 brew cask install alfred
 brew cask install spotify
 brew cask install evernote
@@ -25,6 +24,9 @@ brew cask install slack
 brew cask install iterm2
 brew cask install visual-studio-code
 brew cask install sketch
+brew cask install cyberduck
+brew cask install sequel-pro
+brew cask install postman
 
 # browsers
 brew cask install google-chrome
@@ -33,3 +35,7 @@ brew cask install firefoxnightly
 # less often
 brew cask install disk-inventory-x
 brew cask install vlc
+brew cask install nordvpn
+brew cask install qbittorrent
+brew cask install soda-player
+brew cask install kap
